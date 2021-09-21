@@ -40,7 +40,7 @@
         </p>
         <div class="button-group">
         <input type="submit" value="更新">
-        <button onclick="history.back(-1);return false;">詳細へ戻る</button>
+        <input type="submit" value="詳細へ戻る" onclick="location.href='/tasks/{{ $task->id}}'">
         <div>
 
     </form>
