@@ -20,10 +20,7 @@
         <b>【内容】</b><br>
         <b>{{ $task->body }}</b>
     </p>
-    <p>
-        <b></b>
-    </p>
-
+    
     <div class="button-group">
         <!-- 商品のidを元に編集ページへ遷移する -->
         <button onclick="location.href='/tasks/{{ $task->id }}/edit'">編集する</button>

@@ -47,9 +47,6 @@
         </p>
 
         <input type="submit" value="create task" onclick="location.href='/tasks'">
-        
-
-        
 </body>
 
 </html>

@@ -38,8 +38,10 @@
             <label for="body">内容</label>
             <input type="text" name="body" value="{{ old('body', $task->body) }}">
         </p>
+        <div class="button-group">
         <input type="submit" value="更新">
-        <input type="submit" value="詳細に戻る">
+        <button onclick="history.back(-1);return false;">詳細へ戻る</button>
+        <div>
 
     </form>
 </body>
